@@ -23,6 +23,37 @@ Główne etapy projektu można podzielić na:
 5. Wyodrębnienie danych do sporządzenia wykresów tj. średnich wartości prędkości taksówek oraz ilości taksówek (dla poszczególnych godzin oraz dni w 2019 i 2020).
 6. Przekonwertowanie danych do formatu pandas DataFrame oraz ich prezentacja z wykorzystaniem matplotlib'a.
 
+## Instrukcja
+
+#### W celu uruchomienia programu należy sklonować repozytorium, a potem wykonać następujące kroki:
+
+1. Wybieramy serwis EMR na platformie AWS, przechodzimy do sekcji Notebooks 
+i wybieramy opcję Create notebook.
+![Create Notebook](https://i.imgur.com/wcW7Pt0.png)
+
+2. Wypełniamy niezbędne pola oraz zaznaczamy Create a cluster.
+![Create Notebook](https://i.imgur.com/qH6v6l8.png)
+
+3. Tworzymy notebook.
+![Create Notebook](https://i.imgur.com/T7sXjSo.png)
+
+4. Czekamy aż status klastra zmieni się na Waiting (może to zająć kilka minut).
+![Cluster Waiting](https://i.imgur.com/Gk7WHd3.png)
+
+5. Wybieramy stworzony notebook i klikamy w zaznaczoną opcję.
+![Open](https://i.imgur.com/rSvRCJO.png)
+
+6. Uploadujemy plik .ipynb pobrany z repozytorium.
+![Upload](https://i.imgur.com/X79xEPi.png)
+
+7. Upewniamy się, że kernel jest ustawiony na PySpark.
+![Set Kernel](https://i.imgur.com/DqxcEri.png)
+
+8. Wybieramy opcję Run All Cells.
+![Run](https://i.imgur.com/ebiOOM6.png)
+
+#### Po wykonaniu poszczególnych kroków polecenia ze wszystkich komórek zaczną się wykonywać. Można będzie wtedy zaobserwować finalne wyniki.
+
 ## Analiza uzyskanych wyników
 
 ![plot](https://i.imgur.com/qzY7mrv.png)
